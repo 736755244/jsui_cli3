@@ -129,15 +129,15 @@ module.exports = {
                   ]
             })
     },
-    configureWebpack: {
-      plugins: [
-        new CopyWebpackPlugin([
-          { 
-            from: './packages/theme-default/lib',
-            to:'./theme-default/',
-            ignore: ['node_modules']
-          }
-        ])
-      ]
-    }
+    // configureWebpack: {
+    //   plugins: [
+    //     new CopyWebpackPlugin([
+    //       { 
+    //         from: './packages/theme-default/lib',
+    //         to:'./theme-default/',
+    //         ignore: ['node_modules']
+    //       }
+    //     ])
+    //   ]
+    // }
 };
