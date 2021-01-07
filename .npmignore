@@ -1,0 +1,14 @@
+.DS_Store
+config
+examples/
+node_modules/
+# packages/
+public/
+vue.config.js
+babel.config.js
+tests
+*.map
+package.json
+package-lock.json
+.gitignore
+# .npmignore
